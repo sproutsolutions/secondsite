@@ -11,10 +11,17 @@ font-size: 5em;
 
 
 #section3 h1 {
-margin-top: -27%;
+
 }
 
 div#sep {
-margin-top: -7%;
+
+}
+
+#section0{
+		background-image: url(imgs/nesite.png);
+	}
+#section3 {
+background:#1d181f;
 }
 

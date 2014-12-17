@@ -66,13 +66,8 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				verticalCentered: true,
-				autoScrolling: false,
-				sectionsColor: ['#1d181f', '#1d181f', '#7BAABE'],
-				afterRender: function(){
-					//playing the video
-					$('video').get(0).play();
-				}
+				verticalCentered: false
+
 			});
 		});
 	</script>
@@ -84,10 +79,6 @@
 
 <div id="fullpage">
 	<div class="section " id="section0">
-		<video id="myVideo" autoplay loop muted>
-			<source src="imgs/growthnew.mp4" type="video/mp4">
-			<source src="imgs/growthnew.webm" type="video/webm">
-		</video>
 		<div class="layer">
 			<h1 class="leader">Sprout Solutions</h1>
 		</div>
