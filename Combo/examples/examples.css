@@ -69,12 +69,12 @@ font-size: 1.75em;
 }
 h1{
 	font-size: 5em;
-	color: #000 !important;
+	color: ced6b4;
 	margin: 0;
 	padding: 0;
 	padding-bottom: 18px !important;
-	font-family: 'Michroma', sans-serif !important;
-	background: rgba(255, 255, 255, 0.6);
+	font-family: 'Nixie One', cursive !important; 
+	
 }
 p{
 	font-size: 2em;

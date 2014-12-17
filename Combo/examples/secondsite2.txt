@@ -12,7 +12,6 @@
 
 	<link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="examples.css" />
-	<link rel="stylesheet" type="text/css" href="mystyle.css" />
 	<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
 	<style>
@@ -80,7 +79,7 @@
 			$('#fullpage').fullpage({
 				verticalCentered: true,
 				autoScrolling: false,
-				sectionsColor: ['#1d181f', '#1d181f', '#7BAABE'],
+				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE'],
 				afterRender: function(){
 					//playing the video
 					$('video').get(0).play();
@@ -101,21 +100,15 @@
 			<source src="imgs/growthnew.webm" type="video/webm">
 		</video>
 		<div class="layer">
-			<h1 class="leader">Sprout Solutions</h1>
+			<h1>Sprout Solutions</h1>
 		</div>
-	</div>
-	<div class="section" id="section3"><h1>We Are</h1>
-	<div id ="sep">
-		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="500" height="200" data-1700="stroke-dasharray:495;stroke-dashoffset:556;" data-2700="stroke-dasharray:0;stroke-dashoffset:0;"> 
-		<line fill="none" stroke="#CED6B4" stroke-miterlimit="10" x1="150" y1="121.5" x2="352" y2="121.5"/>
-		<line fill="none" stroke="#CED6B4" stroke-miterlimit="10" x1="150" y1="173.5" x2="352" y2="173.5"/>
-		<line fill="none" stroke="#CED6B4" stroke-miterlimit="10" x1="34" y1="146.5" x2="468" y2="146.5"/>
-		</svg>
-	</div>
-	
-	
-	
-	
+		<div class="meni">
+			<ul>
+			<li>Services</li>
+			<li>Clients</li>
+			<li>Contact</li>
+			</ul>
+		</div>
 	</div>
 	<div class="section" id="section1">
 	    <div class="slide" id="slide1"><h1>Slide Backgrounds</h1></div>
