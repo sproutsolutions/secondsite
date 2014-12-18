@@ -65,3 +65,15 @@ font-family: 'Raleway', sans-serif;
 background:#1d181f;
 }
 
+.svg-container {
+display: inline-block;
+position: relative;
+width: 100%;
+vertical-align: middle;
+overflow: hidden;
+}
+
+.svg-content {
+width: 37%;
+}
+
