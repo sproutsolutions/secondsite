@@ -30,8 +30,8 @@ margin-left: 25%;
 }
 
 div#launchico {
-width: 38%;
-margin-left: -57%;
+width: 25%;
+
 }
 
 div#sep {
@@ -39,22 +39,24 @@ margin-top: -25%;
 padding-top: 3em;
 }
 
+
+
+div#lbulb {
+width: 25%;
+}
+
+div#designico {
+width: 25%;
+}
+
+div#suppico {
+width: 25%;
+}
+
 #gidea {
 width:33%;
 margin-left: 20%;
 margin-top: 3%;
-}
-
-div#lbulb {
-width: 38%;
-}
-
-div#designico {
-width: 38%;
-}
-
-div#suppico {
-width: 38%;
 }
 
 #gidea h2 {
@@ -84,6 +86,14 @@ height: 20%;
 display: -webkit-inline-box;
 }
 
+.offerh{
+color:#ced6b4;
+font-family: 'Geostar', cursive;
+font-size: 1.2em;
+padding-top: 1em;
+}
+
+
 .svg-container {
 display: inline-block;
 position: relative;
@@ -97,6 +107,8 @@ width: 37%;
 }
 
 .svg-contentz {
-width: 95%;
+width: 62%;
+padding-top: 59px;
 }
+
 
