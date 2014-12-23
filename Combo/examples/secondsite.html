@@ -71,7 +71,9 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
+			anchors:['firstSlide', 'secondSlide','3rdslide','4thslide'],
 				verticalCentered: false
+	
 
 			});
 		});
@@ -88,7 +90,7 @@
 			<h1 class="leader">Sprout Solutions</h1>
 		</div>
 	</div>
-	<div class="section" id="section3"><h1>We Are</h1>
+	<div class="section" id="section1"><h1>We Are</h1>
 	<div class="svg-container" id ="sep">
 		<svg version="1.1" viewBox="0 0 500 200" preserveAspectRatio="xMinYMin meet" class="svg-contentz"> 
 		<line fill="none" stroke="#CED6B4" stroke-miterlimit="10" x1="150" y1="121.5" x2="352" y2="121.5"/>
@@ -103,7 +105,7 @@
 	<img src="imgs/bioA.jpg">
 	</div>
 	</div>
-	<div class="section" id="section3">
+	<div class="section" id="section2">
 	<div class="slide" id="slide1">
 	<h1>We Offer</h1>
 	<div class="svg-container" id ="sep">
@@ -366,10 +368,10 @@
 			C195.092,143.453,195.041,142.813,194.982,142.174z"/>
 			  </g>
 			</svg>
-		<h3 class="offerh">Good Ideas<h3>
+		<h3 class="offerh"><a href="file:///G:/Work/Sprout%20Solutions/secondsite/Combo/examples/secondsite.html#3rdslide/1">Good Ideas<a></h3>
 	</div>
 	<div  id="designico">
-	<svg version="1.1" viewBox="0 0 300 300" preserveAspectRatio="xMinYMin meet" class="svg-content" >
+	<svg id="desigico" viewBox="0 0 300 300" preserveAspectRatio="xMinYMin meet" class="svg-content" >
 	      <g>
 		<g>
 		<path fill="#4D8B4D" d="M150.416,2C69.188,2,3.104,68.085,3.104,149.313c0,81.229,66.084,147.314,147.312,147.314
@@ -463,10 +465,10 @@
 		    </g>
 		  </g>
 		</svg>
-		<h3 class="offerh">Custom Design<h3>
+		<h3 class="offerh"><a href="file:///G:/Work/Sprout%20Solutions/secondsite/Combo/examples/secondsite.html#3rdslide/2">Custom Design</a></h3>
 	</div>
 	<div id="launchico">
-	<svg version="1.1" viewBox="0 0 300 300" preserveAspectRatio="xMinYMin meet" class="svg-content">
+	<svg id="rocketico" viewBox="0 0 300 300" preserveAspectRatio="xMinYMin meet" class="svg-content">
 <g>
 	<g>
 		<path fill="#729D98" d="M291.571,178.954l-0.201-0.007c-0.199-0.009-0.399-0.017-0.6-0.017c-13.36,0-25.57,7.608-32.011,19.664
@@ -498,7 +500,7 @@
 			c-0.054-0.125-0.096-0.255-0.163-0.375c-5.243-9.24-14.858-14.979-25.089-14.979c-2.041,0-4.046,0.255-6.002,0.691
 			c1.633-17.434,15.595-31.058,32.584-31.058c1.917,0,3.787,0.182,5.616,0.514c0-0.068-0.004-0.135-0.004-0.2
 			c0-19.048,14.655-34.485,32.743-34.485c4.102,0,8.022,0.802,11.634,2.249c5.081-12.115,16.582-20.577,29.97-20.577
-			c0.238,0,0.47,0.018,0.706,0.024C280.747,226.85,250.019,262.962,209.481,281.076z"/>
+			c0.238,0,0.47,0.018,0.706,0.024C280.747,226.85,250.019,262.962,209.481,281.076z" id="clouds"/>
 		<path fill="#C04C31" d="M182.45,135.385c0.447-5.389,0.681-10.247,0.681-14.521c0-48.65-28.522-87.463-29.735-89.092
 			c-0.74-0.993-1.907-1.579-3.147-1.579c-1.241,0-2.408,0.586-3.147,1.579c-1.214,1.629-29.734,40.442-29.734,89.092
 			c0,4.276,0.232,9.134,0.679,14.52c-14.923,6.909-26.757,23.323-22.523,64.844c0.096,0.928,0.188,1.884,0.283,2.865
@@ -547,19 +549,19 @@
 			c5.52,14.314,10.107,31.927,10.107,50.987c0,3.954-0.207,8.32-0.567,12.972c-0.104,1.304-0.217,2.633-0.343,3.984
 			C177.16,149.901,175.051,163.711,172.474,177.822z M201.065,199.829c-0.61,5.989-1.101,13.194-2.95,21.023
 			c-3.274-15.691-13.165-29.526-22.303-39.5c3.023-16.202,5.116-30.194,6.264-41.861
-			C194.617,145.897,205.027,160.986,201.065,199.829z"/>
+			C194.617,145.897,205.027,160.986,201.065,199.829z" id="rocket"/>
 		<path fill="#729D98" d="M149.456,78.043c-11.372,0-20.622,9.25-20.622,20.618c0,11.369,9.25,20.619,20.622,20.619
 			c11.368,0,20.616-9.25,20.616-20.619C170.073,87.293,160.824,78.043,149.456,78.043z M149.456,115.355
 			c-9.221,0-16.697-7.472-16.697-16.694c0-9.218,7.475-16.693,16.697-16.693c9.217,0,16.691,7.475,16.691,16.693
-			C166.147,107.883,158.673,115.355,149.456,115.355z"/>
+			C166.147,107.883,158.673,115.355,149.456,115.355z" id="rocket"/>
 		<path fill="#A5D6B0" d="M149.456,85.495c-7.26,0-13.167,5.907-13.167,13.167c0,7.26,5.907,13.166,13.167,13.166
 			c7.258,0,13.164-5.906,13.164-13.166C162.62,91.402,156.714,85.495,149.456,85.495z M149.456,109.864
 			c-6.191,0-11.205-5.014-11.205-11.202c0-6.187,5.013-11.204,11.205-11.204c6.185,0,11.201,5.017,11.201,11.204
-			C160.658,104.85,155.641,109.864,149.456,109.864z"/>
+			C160.658,104.85,155.641,109.864,149.456,109.864z" id="rocket"/>
 		<path fill="#FFFFFF" d="M149.477,91.481c-3.646,0-6.793,2.716-7.323,6.319c-0.079,0.536,0.293,1.035,0.828,1.114
 			c0.546,0.082,1.035-0.29,1.115-0.828c0.004-0.025,0.013-0.046,0.018-0.07c0.419-2.61,2.71-4.572,5.363-4.572
 			c2.978,0,5.399,2.404,5.439,5.37c0,0.025,0.008,0.049,0.008,0.073c0,0.542,0.439,0.981,0.981,0.981
-			c0.543,0,0.981-0.439,0.981-0.981C156.887,94.803,153.564,91.481,149.477,91.481z"/>
+			c0.543,0,0.981-0.439,0.981-0.981C156.887,94.803,153.564,91.481,149.477,91.481z" id="rocket"/>
 	</g>
 	<g>
 		<path fill="#FAC140" d="M150.248,2C68.463,2,1.927,68.536,1.927,150.319c0,81.785,66.536,148.321,148.321,148.321
@@ -569,10 +571,10 @@
 	</g>
 </g>
 </svg>
-	<h3 class="offerh">Smooth Launches<h3>
+	<h3 class="offerh"><a href="file:///G:/Work/Sprout%20Solutions/secondsite/Combo/examples/secondsite.html#3rdslide/3">Smooth Launches</a></h3>
 	</div>
 	<div id="suppico">
-	<svg version="1.1" viewBox="0 0 300 300" preserveAspectRatio="xMinYMin meet" class="svg-content">
+	<svg id="supportico" viewBox="0 0 300 300" preserveAspectRatio="xMinYMin meet" class="svg-content">
 <g>
 	<g>
 		<path fill="#729D98" d="M150,3.188C69.049,3.188,3.189,69.048,3.189,150.001c0,80.951,65.859,146.811,146.811,146.811
@@ -616,22 +618,26 @@
 		c3.916,1.826,6.64,5.789,6.64,10.397C92.407,212.273,91.477,214.733,89.935,216.689z"/>
 </g>
 </svg>
-	<h3 class="offerh">Smooth Launches<h3>
+	<h3 class="offerh"><a href="file:///G:/Work/Sprout%20Solutions/secondsite/Combo/examples/secondsite.html#3rdslide/4">No Worries</a></h3>
 	</div>
 	</div>
 	
 	
 	
-	<div class="slide" id="slide1"><h1>Slide Backgrounds</h1></div>
-	<div class="slide" id="slide2"><h1>Totally customizable</h1></div>
+	
+	<div class="slide" id="slide2"><h1>Good Ideas</h1></div>
+	<div class="slide" id="slide3"><h1>Custom Design</h1></div>
+	<div class="slide" id="slide4"><h1>Smooth Launches</h1></div>
+	<div class="slide" id="slide5"><h1>No Worries</h1></div>
+	</div>
+	</div>
 
 	
-	</div>
-	</div>
 	
-	<div class="section" id="section2"><h1>Lovely images <br />for a lovely page</h1></div>
-	<div class="section" id="section4"><h1>One Image = One thousand words</h1></div>
+	
+	<div class="section" id="section3"> <h1>Looks good section4</h1></div>
+	<div class="section" id="section5"> <h1>Looks good section5</h1></div>
+
 </div>
-
 </body>
 </html>
