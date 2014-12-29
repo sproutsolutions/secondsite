@@ -12,9 +12,18 @@ font-size: 5em;
 
 #section3 h1 {
 
-padding-top: 1.5%;
+padding-top: 8.5%;
+color:#f1553a;
+font-size: 7em;
 
 }
+
+svg.svg-contentz2 {
+width: 50%;
+margin-top: -11%;
+}
+
+
 
 svg#idea-bulb:hover {
 -ms-transform: rotate(360deg);
@@ -68,8 +77,12 @@ width: 25%;
 }
 
 div#sep {
-margin-top: -20%;
-padding-top: 3em;
+
+}
+
+svg.svg-contentz3 {
+width: 29%;
+margin-top: -7%;
 }
 
 
@@ -119,7 +132,10 @@ background:#1d181f;
 }
 
 #section3 {
-background:#1d181f;
+background:#40362e;
+background-image: url(imgs/cavetopsmoosh.png);
+background-repeat: no-repeat;
+background-size: contain;
 }
 
 div#icoline {
@@ -153,8 +169,10 @@ width: 85%;
 }
 
 .svg-contentz {
-width: 62%;
-padding-top: 59px;
+width: 58%;
+margin-top: -14%;
 }
+
+
 
 

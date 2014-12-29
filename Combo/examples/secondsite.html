@@ -78,6 +78,53 @@
 			});
 		});
 	</script>
+	
+	<script>
+$(document).ready(function() {
+// Change iFrame on a Button Click Event
+    $(".button").click(function(event){
+        $("iframe").attr('src', $( '#url' ).val());
+    });
+});
+  </script>
+  <script>
+$(document).ready(function() {
+    var a = 3;
+    $('.desktop,.laptop,.tablet,.mobile').draggable({
+   start: function(event, ui) { $(this).css("z-index", a++); }
+});
+    $('.display div').click(function() {
+        $(this).addClass('top').removeClass('bottom');
+        $(this).siblings().removeClass('top').addClass('bottom');
+        $(this).css("z-index", a++);
+
+    });
+});
+</script>
+
+<script>
+
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+var first = getUrlVars()["url"];
+var first = decodeURIComponent(first);
+var first = first.replace(/\#$/, '');
+
+if(first === "undefined") {
+  // don't do anything.
+}
+else {
+//  take the url variable and update the iframes and input field
+  $("iframe").attr('src',(first));
+  $('#url').attr('value',(first));
+}
+</script>
+
 
 </head>
 <body>
@@ -109,7 +156,7 @@
 	<div class="slide" id="slide1">
 	<h1>We Offer</h1>
 	<div class="svg-container" id ="sep">
-		<svg version="1.1" viewBox="0 0 500 200" preserveAspectRatio="xMinYMin meet" class="svg-contentz"> 
+		<svg version="1.1" viewBox="0 0 500 200" preserveAspectRatio="xMinYMin meet" class="svg-contentz2"> 
 		<line fill="none" stroke="#CED6B4" stroke-miterlimit="10" x1="150" y1="121.5" x2="352" y2="121.5"/>
 		<line fill="none" stroke="#CED6B4" stroke-miterlimit="10" x1="150" y1="173.5" x2="352" y2="173.5"/>
 		<line fill="none" stroke="#CED6B4" stroke-miterlimit="10" x1="34" y1="146.5" x2="468" y2="146.5"/>
@@ -635,7 +682,51 @@
 	
 	
 	
-	<div class="section" id="section3"> <h1>Looks good section4</h1></div>
+	<div class="section" id="section3">
+
+		
+			<h1>Our Work</h1>
+			
+		<div class="svg-container" id ="sep">
+		<svg version="1.1" viewBox="0 0 500 200" preserveAspectRatio="xMinYMin meet" class="svg-contentz3"> 
+		<line fill="none" stroke="#CED6B4" stroke-miterlimit="10" x1="150" y1="121.5" x2="352" y2="121.5"/>
+		<line fill="none" stroke="#CED6B4" stroke-miterlimit="10" x1="150" y1="173.5" x2="352" y2="173.5"/>
+		<line fill="none" stroke="#CED6B4" stroke-miterlimit="10" x1="34" y1="146.5" x2="468" y2="146.5"/>
+		</svg>
+		</div>
+		<div class="wrapperright">
+	    <section class="display">
+	    <div class="mobile">
+	    <div class="trim">
+	    <iframe id="mobile" src="http://thecoverfour.com/">
+	    </iframe>
+	    </div>
+	    </div>
+
+	    <div class="tablet">
+	    <div class="trim">
+	      <iframe id="tablet" src="http://thecoverfour.com/">
+	    </iframe>
+	    </div>
+	    </div>
+	    <div class="laptop">
+	    <div class="trim">
+	    <iframe id="laptop" src="http://thecoverfour.com/">
+	    </iframe>
+	    </div>
+	    </div>
+	    <div class="desktop">
+	    <div class="trim">
+	    <iframe id="desktop" src="http://thecoverfour.com/">
+	    </iframe>
+	    </div>
+	    </div>
+	    </div>
+	
+	
+	
+	
+	</div>
 	<div class="section" id="section5"> <h1>Looks good section5</h1></div>
 
 </div>
