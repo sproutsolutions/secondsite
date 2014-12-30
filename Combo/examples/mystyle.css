@@ -140,9 +140,22 @@ background-size: contain;
 
 div#section4 {
 background:#40362e;
-background-image: url(imgs/bottomrock.png);
+background-image: url(imgs/riverbottom2.png);
 background-position:bottom;
+background-repeat: no-repeat;
 }
+
+div#section5{
+background:#1d181f;
+background-image: url(imgs/splashwaterfall2.png);
+background-repeat: no-repeat;
+}
+
+div#section6{
+background:#1d181f;
+background-image: url(imgs/waterbottom.png);
+}
+
 
 div#icoline {
 width: 100%;
