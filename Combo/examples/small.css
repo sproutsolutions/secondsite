@@ -39,11 +39,19 @@ margin-top: -14%;
 div#icoline2 {
 width: 100%;
 height: 20%;
-display: flex;
+display: block;
 }
 
 div#icoline {
 display: none;
+}
+
+div#top2 {
+display: flex;
+}
+
+div#bottom2 {
+display: flex;
 }
 
 div#lbulb {
@@ -52,11 +60,11 @@ width: 85%;
 
 div#launchico {
 width: 85%;
+padding-top: 10%;
 }
 
 div#designico {
 width: 85%;
-padding-top: 10%;
 }
 
 div#suppico {
