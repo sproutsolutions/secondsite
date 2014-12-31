@@ -9,18 +9,24 @@ font-size: 6em;
 }
 
 .svg-contentz {
-width: 56%;
+width: 48%;
 }
 
 div#sep {
-margin-top: -18%;
+margin-top: -17%;
 padding-top: 11em;
 }
 
 #weare {
 font-family: 'Raleway', sans-serif;
 color: #bf4b31;
-width: 96%;
+width: 97%;
 margin-left: 1.5%;
-font-size: 0.8em;
+font-size:0.8em!important;
+margin-top: -14px;
+}
+
+
+#weare p {
+font-size: 1.8em;
 }
