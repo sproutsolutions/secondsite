@@ -229,6 +229,7 @@ float: left;
 width: 40%;
 float: right;
 padding-right: 10%;
+padding-top: 10%;
 }
 
 p.maintex {
@@ -240,4 +241,8 @@ h1.maintit {
 font-family: 'Geostar', cursive !important;
 font-size: 6em;
 color: #bf4b31;
+}
+
+.centersta {
+padding-top: 8%;
 }
