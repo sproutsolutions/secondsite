@@ -75,3 +75,14 @@ padding-top: 10%;
 .offerh {
 white-space: nowrap;
 }
+
+.maininico {
+width: 100%;
+float: none;
+}
+
+.maindes {
+width: 85%;
+padding-left: 7.5%;
+padding-top: 10%;
+}
