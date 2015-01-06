@@ -217,3 +217,27 @@ margin-top: -14%;
 div#icoline2{
 display:none;
 }
+
+
+
+.maininico {
+width: 45%;
+float: left;
+}
+
+.maindes {
+width: 40%;
+float: right;
+padding-right: 10%;
+}
+
+p.maintex {
+color: #ced6b4;
+font-family: 'Raleway', sans-serif;
+}
+
+h1.maintit {
+font-family: 'Geostar', cursive !important;
+font-size: 6em;
+color: #bf4b31;
+}
