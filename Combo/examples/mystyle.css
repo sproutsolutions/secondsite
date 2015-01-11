@@ -33,13 +33,13 @@ transform: rotate(360deg);
 transition-duration: 3s;
 }
 
-svg#desigico:hover{
+/* svg#desigico:hover{
 -ms-transform: rotate(360deg);
 -webkit-transform: rotate(360deg);
 transform: rotate(360deg);
 -webkit-transition-duration: 3s;
 transition-duration: 3s;
-}
+} */
 
 svg#rocketico :hover{
 -ms-transform: rotate(360deg);
