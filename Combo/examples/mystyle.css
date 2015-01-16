@@ -10,13 +10,7 @@ font-size: 5em;
 	
 
 
-#section3 h1 {
 
-padding-top: 8.5%;
-color:#f1553a;
-font-size: 7em;
-
-}
 
 svg.svg-contentz2 {
 width: 50%;
@@ -133,9 +127,16 @@ background:#1d181f;
 
 #section3 {
 background:#40362e;
-background-image: url(imgs/cavetopsmoosh.png);
+background-image: url(imgs/cavetopsmoosh2.png);
 background-repeat: no-repeat;
 background-size: contain;
+
+}
+
+#section3 h1 {
+  color: #f1553a;
+  font-size: 9em;
+
 }
 
 div#section4 {
@@ -247,3 +248,11 @@ color: #bf4b31;
 .centersta {
 padding-top: 8%;
 }
+
+iframe{transform:scale(0.219);-webkit-transform:scale(0.219);-o-transform:scale(0.219);-ms-transform:scale(0.219);-moz-transform:scale(0.219);transform-origin:top left;-webkit-transform-origin:top left;-o-transform-origin:top left;-ms-transform-origin:top left;-moz-transform-origin:top left;margin:0;padding:0;position:relative;background-color:#fff}
+.mobile{background-image:url("../examples/imgs/iphone-optimised.png");position:absolute;width:95px;height:196px;top:375px;left:300px;z-index:5}
+.mobile iframe{width:320px;height:480px;top:33px;left:11px;overflow-y:hidden}
+.tablet{background-image:url("../examples/imgs/ipad-optimised.png");width:246px;height:400px;z-index:3;position:absolute;left:120px;top:230px; background-repeat: no-repeat;}
+.tablet iframe{width:768px;height:1024px;top:36px;left:39px;overflow-y:hidden}
+.laptop{background-image:url("../examples/imgs/laptop-screen-optimised.png");width:477px;height:307px;top:264px;left:560px;position:absolute;z-index:2}
+.laptop iframe{width:1280px;height:802px;top:26px;left:60px;transform:scale(0.277);-webkit-transform:scale(0.277);-o-transform:scale(0.277);-ms-transform:scale(0.277);-moz-transform:scale(0.277);transform-origin:top left;-webkit-transform-origin:top left;-o-transform-origin:top left;-ms-transform-origin:top left;-moz-transform-origin:top left}.desktop{position:absolute;width:566px;height:538px;background-image:url("../examples/imgs/large-screen-optimised.png");top:0px;left:220px;z-index:1}.desktop iframe{left:28px;top:38px;width:1600px;height:992px;transform:scale(0.3181);-webkit-transform:scale(0.3181);-o-transform:scale(0.3181);-ms-transform:scale(0.3181);-moz-transform:scale(0.3181);transform-origin:top left;-webkit-transform-origin:top left;-o-transform-origin:top left;-ms-transform-origin:top left;-moz-transform-origin:top left}.about-tool{font-size:1.2em;max-width:64em;width:80%;margin:1em auto}
