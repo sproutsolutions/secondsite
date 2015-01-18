@@ -31,7 +31,7 @@ font-size: 5em;
     position:absolute;
     left:50%; /* centers the loading animation horizontally one the screen */
     top:50%; /* centers the loading animation vertically one the screen */
-    background-image:url(../examples/imgs/status2.gif); /* path to your loading animation */
+    background-image:url(../examples/imgs/status3.gif); /* path to your loading animation */
     background-repeat:no-repeat;
     background-position:center;
     margin:-100px 0 0 -100px; /* is width and height divided by two */
@@ -279,9 +279,22 @@ padding-top: 8%;
 }
 
 iframe{transform:scale(0.219);-webkit-transform:scale(0.219);-o-transform:scale(0.219);-ms-transform:scale(0.219);-moz-transform:scale(0.219);transform-origin:top left;-webkit-transform-origin:top left;-o-transform-origin:top left;-ms-transform-origin:top left;-moz-transform-origin:top left;margin:0;padding:0;position:relative;background-color:#fff}
-.mobile{background-image:url("../examples/imgs/iphone-optimised.png");position:absolute;width:95px;height:196px;top:375px;left:300px;z-index:5}
+.mobile{background-image:url("../examples/imgs/iphone-optimised.png");position:absolute;width:95px;height:196px;bottom:1%;z-index:5}
 .mobile iframe{width:320px;height:480px;top:33px;left:11px;overflow-y:hidden}
-.tablet{background-image:url("../examples/imgs/ipad-optimised.png");width:246px;height:400px;z-index:3;position:absolute;left:120px;top:230px; background-repeat: no-repeat;}
+.tablet{background-image:url("../examples/imgs/ipad-optimised.png");width:246px;height:400px;z-index:3;position:absolute; bottom:-7%; background-repeat: no-repeat;}
 .tablet iframe{width:768px;height:1024px;top:36px;left:39px;overflow-y:hidden}
-.laptop{background-image:url("../examples/imgs/laptop-screen-optimised.png");width:477px;height:307px;top:264px;left:560px;position:absolute;z-index:2}
-.laptop iframe{width:1280px;height:802px;top:26px;left:60px;transform:scale(0.277);-webkit-transform:scale(0.277);-o-transform:scale(0.277);-ms-transform:scale(0.277);-moz-transform:scale(0.277);transform-origin:top left;-webkit-transform-origin:top left;-o-transform-origin:top left;-ms-transform-origin:top left;-moz-transform-origin:top left}.desktop{position:absolute;width:566px;height:538px;background-image:url("../examples/imgs/large-screen-optimised.png");top:0px;left:220px;z-index:1}.desktop iframe{left:28px;top:38px;width:1600px;height:992px;transform:scale(0.3181);-webkit-transform:scale(0.3181);-o-transform:scale(0.3181);-ms-transform:scale(0.3181);-moz-transform:scale(0.3181);transform-origin:top left;-webkit-transform-origin:top left;-o-transform-origin:top left;-ms-transform-origin:top left;-moz-transform-origin:top left}.about-tool{font-size:1.2em;max-width:64em;width:80%;margin:1em auto}
+.laptop{background-image:url("../examples/imgs/laptop-screen-optimised.png");width:477px;height:307px;bottom:2%;position:absolute;z-index:2}
+.laptop iframe{width:1280px;height:802px;top:26px;left:60px;transform:scale(0.277);-webkit-transform:scale(0.277);-o-transform:scale(0.277);-ms-transform:scale(0.277);-moz-transform:scale(0.277);transform-origin:top left;-webkit-transform-origin:top left;-o-transform-origin:top left;-ms-transform-origin:top left;-moz-transform-origin:top left}
+.desktop{position:absolute;width:566px;height:538px;background-image:url("../examples/imgs/large-screen-optimised.png");bottom:0%;z-index:1}
+.desktop iframe{left:28px;top:38px;width:1600px;height:992px;transform:scale(0.3181);-webkit-transform:scale(0.3181);-o-transform:scale(0.3181);-ms-transform:scale(0.3181);-moz-transform:scale(0.3181);transform-origin:top left;-webkit-transform-origin:top left;-o-transform-origin:top left;-ms-transform-origin:top left;-moz-transform-origin:top left}.about-tool{font-size:1.2em;max-width:64em;width:80%;margin:1em auto}
+
+
+iframe{transform:scale(0.219);-webkit-transform:scale(0.219);-o-transform:scale(0.219);-ms-transform:scale(0.219);-moz-transform:scale(0.219);transform-origin:top left;-webkit-transform-origin:top left;-o-transform-origin:top left;-ms-transform-origin:top left;-moz-transform-origin:top left;margin:0;padding:0;position:relative;background-color:#fff}
+.mobile2{background-image:url("../examples/imgs/iphone-optimised.png");position:absolute;width:95px;height:196px;top:375px;left:300px;z-index:5}
+.mobile2 iframe{width:320px;height:480px;top:33px;left:11px;overflow-y:hidden}
+.tablet2{background-image:url("../examples/imgs/ipad-optimised.png");width:246px;height:400px;z-index:3;position:absolute;left:120px;top:230px; background-repeat: no-repeat;}
+.tablet2 iframe{width:768px;height:1024px;top:36px;left:39px;overflow-y:hidden}
+.laptop2{background-image:url("../examples/imgs/laptop-screen-optimised.png");width:477px;height:307px;top:264px;left:560px;position:absolute;z-index:2}
+.laptop2 iframe{width:1280px;height:802px;top:26px;left:60px;transform:scale(0.277);-webkit-transform:scale(0.277);-o-transform:scale(0.277);-ms-transform:scale(0.277);-moz-transform:scale(0.277);transform-origin:top left;-webkit-transform-origin:top left;-o-transform-origin:top left;-ms-transform-origin:top left;-moz-transform-origin:top left}
+.desktop2{position:absolute;width:566px;height:538px;background-image:url("../examples/imgs/large-screen-optimised.png");top:0px;left:220px;z-index:1}
+.desktop2 iframe{left:28px;top:38px;width:1600px;height:992px;transform:scale(0.3181);-webkit-transform:scale(0.3181);-o-transform:scale(0.3181);-ms-transform:scale(0.3181);-moz-transform:scale(0.3181);transform-origin:top left;-webkit-transform-origin:top left;-o-transform-origin:top left;-ms-transform-origin:top left;-moz-transform-origin:top left}
