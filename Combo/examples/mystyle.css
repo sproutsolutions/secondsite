@@ -37,6 +37,29 @@ font-size: 5em;
     margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
 	
+div#clients {
+  display: flex;
+}
+
+
+div#clients img {
+width:50%;
+}
+
+div#clientz{
+
+display: flex;
+}
+
+div#clientwrap {
+width: 36%;
+margin-left: 32%;
+margin-top: 19%;
+}
+
+div#clientz img {
+width:50%;
+}
 
 
 
@@ -155,11 +178,11 @@ background:#1d181f;
 }
 
 #section3 {
-background:#40362e;
-background-image: url(imgs/cavetopsmoosh2.png);
+background: #40362e;
+background-image: url(imgs/cavetopsmoosh2.png),url(imgs/riverbottom2.png);
 background-repeat: no-repeat;
 background-size: contain;
-
+background-position: top,bottom;
 }
 
 #section3 h1 {
@@ -251,6 +274,8 @@ display:none;
 
 
 
+
+
 .maininico {
 width: 45%;
 float: left;
@@ -290,11 +315,11 @@ iframe{transform:scale(0.219);-webkit-transform:scale(0.219);-o-transform:scale(
 
 
 iframe{transform:scale(0.219);-webkit-transform:scale(0.219);-o-transform:scale(0.219);-ms-transform:scale(0.219);-moz-transform:scale(0.219);transform-origin:top left;-webkit-transform-origin:top left;-o-transform-origin:top left;-ms-transform-origin:top left;-moz-transform-origin:top left;margin:0;padding:0;position:relative;background-color:#fff}
-.mobile2{background-image:url("../examples/imgs/iphone-optimised.png");position:absolute;width:95px;height:196px;top:375px;left:300px;z-index:5}
+.mobile2{background-image:url("../examples/imgs/iphone-optimised.png");position:absolute;width:95px;height:196px;top:375px;z-index:5}
 .mobile2 iframe{width:320px;height:480px;top:33px;left:11px;overflow-y:hidden}
-.tablet2{background-image:url("../examples/imgs/ipad-optimised.png");width:246px;height:400px;z-index:3;position:absolute;left:120px;top:230px; background-repeat: no-repeat;}
+.tablet2{background-image:url("../examples/imgs/ipad-optimised.png");width:246px;height:400px;z-index:3;position:absolute;top:230px; background-repeat: no-repeat;}
 .tablet2 iframe{width:768px;height:1024px;top:36px;left:39px;overflow-y:hidden}
-.laptop2{background-image:url("../examples/imgs/laptop-screen-optimised.png");width:477px;height:307px;top:264px;left:560px;position:absolute;z-index:2}
+.laptop2{background-image:url("../examples/imgs/laptop-screen-optimised.png");width:477px;height:307px;top:264px;position:absolute;z-index:2}
 .laptop2 iframe{width:1280px;height:802px;top:26px;left:60px;transform:scale(0.277);-webkit-transform:scale(0.277);-o-transform:scale(0.277);-ms-transform:scale(0.277);-moz-transform:scale(0.277);transform-origin:top left;-webkit-transform-origin:top left;-o-transform-origin:top left;-ms-transform-origin:top left;-moz-transform-origin:top left}
-.desktop2{position:absolute;width:566px;height:538px;background-image:url("../examples/imgs/large-screen-optimised.png");top:0px;left:220px;z-index:1}
+.desktop2{position:absolute;width:566px;height:538px;background-image:url("../examples/imgs/large-screen-optimised.png");top:0px;z-index:1}
 .desktop2 iframe{left:28px;top:38px;width:1600px;height:992px;transform:scale(0.3181);-webkit-transform:scale(0.3181);-o-transform:scale(0.3181);-ms-transform:scale(0.3181);-moz-transform:scale(0.3181);transform-origin:top left;-webkit-transform-origin:top left;-o-transform-origin:top left;-ms-transform-origin:top left;-moz-transform-origin:top left}
