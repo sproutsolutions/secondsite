@@ -62,8 +62,6 @@ width:50%;
 }
 
 
-
-
 svg.svg-contentz2 {
 width: 50%;
 margin-top: -11%;
@@ -71,13 +69,13 @@ margin-top: -11%;
 
 
 
-svg#idea-bulb:hover {
+/* svg#idea-bulb:hover {
 -ms-transform: rotate(360deg);
 -webkit-transform: rotate(360deg);
 transform: rotate(360deg);
 -webkit-transition-duration: 3s;
 transition-duration: 3s;
-}
+} * /
 
 /* svg#desigico:hover{
 -ms-transform: rotate(360deg);
@@ -87,13 +85,13 @@ transform: rotate(360deg);
 transition-duration: 3s;
 } */
 
-svg#rocketico :hover{
+/* svg#rocketico :hover{
 -ms-transform: rotate(360deg);
 -webkit-transform: rotate(360deg);
 transform: rotate(360deg);
 -webkit-transition-duration: 3s;
 transition-duration: 3s;
-}
+} */
 
 /* svg#supportico:hover {
 -ms-transform: rotate(360deg);
