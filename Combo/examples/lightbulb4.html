@@ -2,17 +2,13 @@
 	 
        "http://www.w3.org/TR/html4/loose.dtd">
  
- 
- 
 <html lang="en"> 
 <head>
 </head> 
 <div id="anim3" style="width: 484px; height: 130px; margin: 0px auto; padding: 40px 0px;">
 		<svg bulb id="idea-bulb" viewBox="0 0 300 300" preserveAspectRatio="xMinYMin meet" class="svg-content">
-		<path fill="#BF4B31" d="M150.548,4.456C70.283,4.456,4.983,69.757,4.983,150.023s65.3,145.568,145.565,145.568
-			c80.267,0,145.567-65.302,145.567-145.568S230.815,4.456,150.548,4.456z M150.548,289.813
-			c-77.079,0-139.787-62.709-139.787-139.79c0-77.079,62.708-139.788,139.787-139.788c77.081,0,139.79,62.709,139.79,139.788
-			C290.338,227.104,227.629,289.813,150.548,289.813z"/>
+		<path fill="white" id="circlebulb" d="M150.548,4.456C70.283,4.456,4.983,69.757,4.983,150.023s65.3,145.568,145.565,145.568
+			c80.267,0,145.567-65.302,145.567-145.568S230.815,4.456,150.548,4.456z"/>
 		<g id="lines">	
 			<path fill="white" id="line1" class="ray" d="M271.068,130.242l-35.803,4.701c0.096,0.632,0.16,1.275,0.242,1.911c0.084,0.638,0.176,1.272,0.244,1.912
 				l35.818-4.702c0.97-0.128,1.676-0.957,1.675-1.909c0-0.084-0.005-0.167-0.016-0.252
@@ -263,7 +259,15 @@
 <script>
     var a = document.getElementById("anim3");
     var NS="http://www.w3.org/2000/svg";
-    var Animation = new TimelineMax();
+
+	var circlebulb = document.getElementById("circlebulb");
+	var dimsbulb = circlebulb.getTotalLength();
+	circlebulb.style.strokeDasharray = dimsbulb
+	circlebulb.style.strokeDashoffset = 915
+	circlebulb.style.stroke = "#BF4B31"
+	circlebulb.style.strokeWidth = 4
+	TweenMax.to(circlebulb,2,{strokeDashoffset:0,ease:Power2.easeInOut});
+	var Animation = new TimelineMax();
     Animation.pause();
 	var thisGroup = document.getElementsByClassName("ray");
 		for(var x = 0; x<thisGroup.length;x++){
