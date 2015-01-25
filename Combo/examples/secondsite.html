@@ -192,6 +192,7 @@
 			if(window.location.hash == '#3rdslide/4') {
 				var yaya = document.getElementById("clouds2");
 				TweenLite.to(yaya, .3, {opacity: 0, ease:Circ.easeOut, delay: .5});
+				TweenLite.to(document.getElementsByClassName("rocketship"), 4, {y:25, ease:Circ.easeInOut});
 				};
 			});	
 	</script>	
