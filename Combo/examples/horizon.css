@@ -13,6 +13,11 @@ width: 48%;
 margin-top: -13%;
 }
 
+svg.svg-contentz2 {
+  width: 54%;
+  margin-top: -14%;
+}
+
 div#sep {
 margin-top: -15%;
 padding-top: 11em;
@@ -49,10 +54,12 @@ width: 25%;
 
 div#suppico {
 width: 25%;
+padding-top:0%;
 }
 
 div#launchico {
 width: 25%;
+padding-top:0%;
 
 }
 
