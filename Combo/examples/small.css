@@ -31,6 +31,10 @@ padding-top: 9em;
 }
 
 
+div#clients {
+display: block;
+}
+
 svg.svg-contentz2 {
 width: 94%;
 margin-top: -14%;
@@ -70,6 +74,10 @@ width: 85%;
 div#suppico {
 width: 85%;
 padding-top: 10%;
+}
+
+.taggy {
+margin-top: 10px;
 }
 
 .offerh {
