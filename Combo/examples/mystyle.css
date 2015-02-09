@@ -191,7 +191,7 @@ background:#1d181f;
 
 #section3 {
 background: #40362e;
-background-image: url(imgs/cavetopsmoosh7.png),url(imgs/riverbottom5.png);
+background-image: url(imgs/cavetopsmoosh7.png),url(imgs/riverbottom6.png);
 background-repeat: no-repeat;
 background-size: contain;
 background-position: top,bottom;
@@ -207,7 +207,7 @@ background-position: top,bottom;
 
 div#section4{
 background:#1d181f;
-background-image: url(imgs/splashwaterfall3.png);
+background-image: url(imgs/splashwaterfall5.png);
 background-repeat: no-repeat;
 background-size: contain;
 
@@ -251,7 +251,7 @@ display: inline-block;
 position: relative;
 width: 100%;
 vertical-align: middle;
-overflow: hidden;
+overflow: visible;
 }
 
 .svg-content {
@@ -260,7 +260,7 @@ width: 85%;
 
 .svg-contentz {
 width: 58%;
-margin-top: -14%;
+margin-top: -12%;
 }
 
 
