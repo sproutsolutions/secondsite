@@ -173,11 +173,13 @@ color: #bf4b31;
 font-family: 'Raleway', sans-serif;
 }
 
-#section0{
-		background-image: url(imgs/nesitelong.png);
-		background-position:bottom;
-		background-size: cover;
-	}
+#section0 {
+  background-color: #C84663;
+  background-image: url(imgs/grass3.png), url(imgs/trees1.png), url(imgs/trees2.png), url(imgs/mountain1.png), url(imgs/sonny.png);
+  background-position: bottom , bottom, bottom, right bottom, left top;
+  background-size: contain, contain, contain, contain, auto ;
+  background-repeat: no-repeat;
+}
 	
 div#section1 {
 background:#1d181f;
@@ -205,7 +207,7 @@ background-position: top,bottom;
 
 div#section4{
 background:#1d181f;
-background-image: url(imgs/splashwaterfall2.png);
+background-image: url(imgs/splashwaterfall3.png);
 background-repeat: no-repeat;
 background-size: contain;
 
