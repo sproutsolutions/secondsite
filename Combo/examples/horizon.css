@@ -10,7 +10,7 @@ font-size: 6em;
 
 .svg-contentz {
 width: 48%;
-margin-top: -13%;
+margin-top: -11%;
 }
 
 svg.svg-contentz2 {
@@ -33,7 +33,8 @@ display: -webkit-inline-box;
 }
 
 #weare p {
-font-size: 3em;
+font-size: 1.8em;
+padding-top: 2%;
 }
 
 div#icoline2{
@@ -41,7 +42,7 @@ display:none;
 }
 
 div#section1 {
-background: #1D1853;
+background: #1d181f;
 }
 
 div#lbulb {
@@ -82,6 +83,10 @@ font-family: 'Raleway', sans-serif;
 color: #bf4b31;
 width: 97%;
 margin-left: 1.5%;
-font-size: 0.5em!important;
+font-size: 0.9em!important;
 margin-top: -14px;
+}
+
+div#clients {
+display: flex;
 }
